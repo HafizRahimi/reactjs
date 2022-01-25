@@ -1,0 +1,953 @@
+
+ReactJs
+
+https://toplearn.com/c/qxl2
+
+امروزه ReactJs به سرعت در حال تبدیل شدن به یک ابزار بسیار قدرتمند برای ساخت وب اپلیکیشن ها است و خیلی از معروفترین سایت ها از جمله فیسبوک , توییتر, نتفلیکس , یاهو , اینستاگرام و غیره همه در حال استفاده از این ابزار بسیار قدرتمند برای هرچه سریعتر و کارآمدتر کردن سایت و وب اپلیکیشن های خود هستند.
+
+32 videos
+
+
+------------------------------------------
+SAMMANFATNIG
+
+Install Create React App Tool:
+       https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
+
+       Create React App website:
+            https://create-react-app.dev/
+
+       1- install Global:
+          npm i -g create-react-app    
+          npm i -g create-react-app@3.3.0  install whit verson 3.3.0
+
+------------------------------------------
+Create Project_Files for a React App:  
+    
+       1- if you are in Project Folder write in CMD:
+
+                                      create-react-app .
+
+       2- If you have not and want to greate new Folder, write in CMD:
+
+                                      create-react-app FolderName
+                            EXE:      create-react-app firstProject
+
+------------------------------------------
+3- install Extension Simple React Snippets:
+      imrc	(for Import React / Component)
+        cc	(for Class Component)
+
+5- install Extension Auto Import - ES6, TS, JSX, TSX
+------------------------------------------
+
+
+
+
+
+____________________________________________________________________________________________
+
+Video 01:
+
+
+
+____________________________________________________________________________________________
+
+Video 02:
+
+
+____________________________________________________________________________________________
+
+Video 03:
+
+----------------------------------------------------------  
+Video 01 introduction
+
+
+----------------------------------------------------------       
+Video 02 in For Windows:
+
+     1- Install NodeJs:
+                https://nodejs.org/
+
+     2- Install VSCode:
+                https://code.visualstudio.com/
+
+     3- آموزش نکات حرفه ایی VsCode:
+                https://toplearn.com/c/Lmw
+
+
+----------------------------------------------------------  
+Video 03 in For Linux:
+
+     1- Install NodeJs:
+                https://nodejs.org/
+      
+     2- github
+     https://github.com/nodesource/distributions
+
+     3- Install VSCode:
+                https://code.visualstudio.com/
+
+     4- آموزش نکات حرفه ایی VsCode:
+                https://toplearn.com/c/Lmw
+
+____________________________________________________________________________________________
+
+Video 04:
+
+----------------------------------------------------------  
+Video 01 
+
+introduction
+
+----------------------------------------------------------  
+Video 02 
+
+Components (اجزا, تشکیل‌دهنده) is important for React.
+
+React documentation(مستندات):
+	https://reactjs.org/docs/getting-started.html
+
+
+----------------------------------------------------------  
+Video 03 
+
+Create React App Tool
+
+Create React App is a Tool for inatll all files which needs a React app
+
+Install Create React App Tool:
+       https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
+
+       Create React App website:
+            https://create-react-app.dev/
+
+       1- install Global:
+          npm i -g create-react-app    
+          npm i -g create-react-app@3.3.0  install whit verson 3.3.0
+
+
+       2- uninstall-packages:
+          npm uninstall -g create-react-app
+
+       3- Shows create-react-apps Version:
+	  create-react-app -V
+		or
+	  create-react-app --version
+
+----------------------------------------------------------
+Video 04 
+
+Create Project_Files for a React App:  
+    
+       1- if you are in Project Folder write in CMD:
+
+                                      create-react-app .
+
+       2- If you have not and want to greate new Folder, write in CMD:
+
+                                      create-react-app FolderName
+                            EXE:      create-react-app firstProject
+
+
+       3- for start write in CMD:
+                   npm start
+                   
+                   now you have:
+                   http://localhost:3000/
+                   http://192.168.8.101:3000/
+                   
+                   Ctrl + C : stop host
+
+       4- for open the project in VSCode:
+                  code .
+
+       5- yarn 
+	   yarn is like npm
+	   Install  Global Yarn:
+			npm i -g yarn 
+
+
+----------------------------------------------------------
+Video 05
+
+ReactComponents  
+       
+open folder firstProject:
+     ops: programer give not project with folder node_modules:
+          1- open project and open cmd:
+          2- install node_modules:
+               			npm i
+
+in app.js:
+function App() {
+  return (
+    <div>
+        <h1>Hafizullah</h1>
+    </div>
+
+  );
+}
+
+____________________________________________________________________________________________
+
+Video 05: JSX
+
+----------------------------------------------------------
+Video 01
+
+Introduction
+
+javascript extention یا jsx 
+یک افزونه ری اکت است که به ما اجازه می دهد کدهای جاوا اسکریپت را همانند
+html 
+بنویسیم
+
+
+----------------------------------------------------------
+Video 02
+WhyJSX
+
+      babeljs:    (new Jsx codes to old Jsx codes)
+         https://babeljs.io/
+
+----------------------------------------------------------
+Video 03
+
+
+1- JSX is not HTML
+2- in JSX we have to a tag Root 
+3- comment  in JSX: {/* comment */}
+4- class in html = className in jsx
+5- you have close tag after you greate
+
+EXE:
+  return (
+    return (
+        <div className='App'> {/* Root Tag */}
+            <div>
+                <h1>Hafizullah</h1>
+            </div>
+            <hr></hr>{/* you have to close tagen */}
+            <div>
+                <p>Hafizullah</p>
+            </div>
+        </div>
+    );
+
+
+____________________________________________________________________________________________
+
+Chapter 06  
+
+----------------------------------------------------------      
+
+Video 01
+
+Introduction
+
+1-  npm i -g create-react-app
+  - npm uninstall -g create-react-app
+
+2- create-react-app .
+
+
+--------------------------------------- 
+Video 02
+
+Firststeps
+
+name components is better to  big first alfabet and is better to save with .jsx not .js 
+
+class  Component
+
+Create Component:
+    1- class  Component:
+    
+        1- class NameComponentClass extends React.Component{}
+        
+        EXA: 
+        import React from 'react';
+        class NameComponentClass extends React.Component{
+                render(){
+                    return(
+                        <div></div> // Div root     
+                    )
+                }
+        }
+        export default NameComponentClass;
+
+
+        or(this is better before)
+        2- class NameComponentClass extends Component{}
+
+        
+        EXA: 
+        import React,{Component} from 'react';
+        class NameComponentClass extends Component{
+                            render(){
+                    return(
+                        <div></div> // Div root   
+                    )
+                }
+        }
+        export default NameComponentClass;
+
+    2- function Component (Video 4)
+
+
+
+
+1- Delete all files in src-folder
+
+
+2- Delete all files in public-folder but not index.html
+
+
+3- create App.js or App.jsx  in src-folder (App.js is huvudet Component) and write:
+
+// import React from 'react';
+import React,{Component} from 'react';
+
+import './App.css';
+
+// class App extends React.Component{
+class App extends Component{
+
+    constructor(){
+        super();
+    };
+    render(){
+        return(
+            <div className='App'> 
+                <h1>Hello World!</h1>
+            </div>
+        )
+    }
+}
+
+export default App;
+
+
+
+4- create App.css in src-folder :
+
+.App{
+    text-align: center;
+}
+
+
+
+
+5- create index.js in src-folder :
+
+import React from 'react';
+
+// import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+
+import App from './App';
+
+// ReactDOM.render(<App/> ,document.getElementById('root'))
+render(<App/> ,document.getElementById('root'))
+
+
+
+6- in Terminal:
+   npm start
+
+
+----------------------------------------------------------
+Video 03
+
+ChildComponent:
+
+1- create a folder in src-folder which is name components
+
+
+2- Create  Person.jsx in PComponents-folder
+
+
+
+3- install Extension Simple React Snippets:
+      imrc	(for Import React / Component)
+        cc	(for Class Component)
+
+
+
+
+4- open Person.jsx and write:  	( cc for Class Component)
+
+import React, { Component } from 'react';
+
+class Person extends Component {
+    render() { 
+        return <p>Hafizullah Rahimi</p> ;
+    }
+}
+
+export default Person;
+
+
+
+5- install Extension Auto Import - ES6, TS, JSX, TSX
+
+
+6- in App.jsx :
+
+import React from "react";
+
+import Person from './components/Person';
+import './App.css';
+
+
+class App extends React.Component{
+    render(){
+        return(
+            <div className='App'>
+                <h1>Hello World!</h1>
+                <hr/>
+                <Person/>
+            </div>
+        )
+    }
+}
+
+export default App;
+
+
+7- in the Terminal:
+    npm start
+
+
+
+----------------------------------------------------------
+Video 04
+
+function Component (Stateless function Component)
+Component Class to Component Fuction
+
+create Component:
+        1- Class Component (Video 2)
+
+        2- function Component
+        import React from 'react';
+
+        const NameComponentFuction = ()=>{
+            return(
+                <div></div>  // Div root 
+            )
+        }
+        export default NameComponentFuction;
+
+
+
+1- in the Person.jsx:
+
+// imr
+import React from 'react';
+
+//sfc
+const Person = ()=>{
+    return(
+        <p>Hafizullah Rahimi</p>
+    )
+}
+
+export default Person;
+
+
+2- in the App.js:
+
+import React from 'react';
+
+import './App.css';
+import Person from './components/Person';
+
+
+const App = () => {
+    return (
+        <div className='App'>
+            <h1>Hello World!</h1>
+            <hr></hr>
+            <Person/>
+        </div>
+    );
+}
+
+export default App;
+
+
+----------------------------------------------------------
+Video 05
+
+dynamic data (javascript in JSX)
+    {javascript Code bus just one line}
+
+    EXA:
+    <p>Age : {Math.floor(Math.random() *30)}</p>
+
+
+props:
+firstName and lastName are props which send like Object to Person Component function in the Person.jsx
+
+// 1- in the App.js
+
+import React from 'react';
+
+import './App.css';
+import Person from './components/Person';
+
+
+const App = () => {
+    return (
+        <div className='App'>
+            <h1>Hello World!</h1>
+            <hr></hr>
+            <Person firstName = 'Hafizullah' lastName = 'Rahimi'/>
+        </div>
+    );
+}
+
+export default App;
+
+
+// 2- in the Person.jsx:
+
+import React from 'react';
+
+const Person = props => {
+    return (
+        <div>
+        <p>{`${props.firstName} ${props.lastName}`}</p>
+        <hr></hr>
+        <p>Age : {Math.floor(Math.random() *30)}</p>
+        </div>
+        )
+}
+
+export default Person;
+
+
+// 3- but this is better:
+
+// in the App.js:
+
+import React from 'react';
+
+import './App.css';
+import Person from './components/Person';
+
+const App = () => {
+    return (
+        <div className="App">
+            <h1>Hello World!</h1>
+            <hr></hr>
+            <Person firstName="Hafizullah" lastName="Rahimi" age="33"/>
+            {/* <Person firstName="Hafizullah" lastName="Rahimi" age = {Math.floor(Math.random() * 30)}/> */}
+        </div>
+    );
+};
+
+export default App;
+
+
+// in the Person.jsx:
+
+import React from 'react';
+
+const Person = ({ firstName, lastName,age }) => {
+    return (
+        <div>
+            <p>{`${firstName} ${lastName}`}</p>
+            <hr></hr>
+            {/* <p>Age : {Math.floor(Math.random() * 30)}</p> */}
+            <p>Age : {age}</p>
+        </div>
+    );
+};
+
+export default Person;
+
+
+----------------------------------------------------------
+Video 06
+
+how use a State in the Component?
+
+State 
+    State: When WE do Change Delete and... a data in the Component, we do state.
+    props: When we send data from a Component to other Component.
+
+    Stateless: Component which has State
+    Statefull: Component which has not State
+
+
+
+Exampel:
+-------------
+in the Person.jsx
+
+import React from 'react';
+
+const Person = ({ firstName, lastName,age }) => {
+    return (
+        <div>
+            <p>{`${firstName} ${lastName}`}</p>
+            {/* <p>Age : {Math.floor(Math.random() * 30)}</p> */}
+            <p>Age : {age}</p>
+            <hr></hr>
+        </div>
+    );
+};
+
+export default Person;
+
+
+-------------
+in the App.js
+
+import React, { Component } from 'react';
+
+import './App.css';
+import Person from './components/Person';
+
+class App extends Component {
+    constructor() {
+        super();
+        this.state = {
+            persons: [
+                { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+                { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+                { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+            ],
+        };
+    }
+    render() {
+        return (
+            <div className="App">
+                <h1>Hello World!</h1>
+                <hr />
+                {/* <Person firstName= 'Hafizullah' lastName= 'Rahimi' age= '20'/> */}
+                <Person
+                    firstName={this.state.persons[0].firstname}
+                    lastName={this.state.persons[0].lastname}
+                    age={this.state.persons[0].age}
+                />
+                <Person
+                    firstName={this.state.persons[1].firstname}
+                    lastName={this.state.persons[1].lastname}
+                    age={this.state.persons[1].age}
+                />
+                <Person
+                    firstName={this.state.persons[2].firstname}
+                    lastName={this.state.persons[2].lastname}
+                    age={this.state.persons[2].age}
+                />
+            </div>
+        );
+    }
+}
+
+export default App;
+
+
+// this is not good to create tre Person and we have to loop in it. 
+
+1- {write javascript} in jsx
+2- we take Map loop for loops in the state.persons
+3- we take Arron function in the map loop
+
+    render() {
+        const {persons} = this.state;
+        return (
+            <div className="App">
+                <h1>Hello World!</h1>
+                <hr />
+                {/* <Person firstName= 'Hafizullah' lastName= 'Rahimi' age= '20'/> */}
+
+                {/* {this.state.persons.map(person => (
+                    <Person firstname ={person.firstname} lastname = {person.lastname} age = {person.age}/>
+                )
+                )} */}
+
+                {persons.map(person => (
+                    <Person firstname ={person.firstname} lastname = {person.lastname} age = {person.age}/>
+                )
+                )}
+            </div>
+        );
+    }
+
+
+----------------------------------------------------------
+Video 07
+
+
+1- setState
+    When WE do Change state to other state in Component.
+
+2- bind()
+    methods which create in the class in React can take (this) for they can it methods takes bind(this).
+    Exampel:
+    constructor() {
+        this.nameMethod = this.nameMethod.bind(this)
+    }
+    nameMethod(){}
+
+3- How use a State in the Component in ES7? 
+
+4- props.children
+    <Person > ==============> <Person> props.children </Person>
+
+
+From Video 6:
+    State: When WE do Change Delete and... a data in the Component, we do state.
+    props: When we send data from a Component to other Component.
+
+
+
+Exampels
+
+-------------------------------------------
+1- setatate with nameMethod(){} and bind(this)
+
+in the App.js: 
+
+import React, { Component } from 'react';
+
+import './App.css';
+import Person from './components/Person';
+
+class App extends Component {
+    constructor() {
+        
+        super();
+
+        this.handlePersonChange = this.handlePersonChange.bind(this);
+
+        this.state = {
+            persons: [
+                { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+                { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+                { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+            ],
+        };
+    }
+
+    handlePersonChange(){
+        this.setState({
+            persons: [
+                { firstname: 'Hafiz', lastname: 'Rahimi', age: 20 },
+                { firstname: 'Khers Bozorg', lastname: 'Nori', age: 44 },
+                { firstname: 'maryam', lastname: 'jafari', age: 16 },
+            ],
+        })
+    }
+
+    render() {
+        const { persons } = this.state;
+        return (
+            <div className="App">
+                <h1>Hello World!</h1>
+                <hr />
+                {persons.map((person) => (
+                    <Person
+                        firstname={person.firstname}
+                        lastname={person.lastname}
+                        age={person.age}
+                    />
+                ))}
+                <hr />
+                <button onClick={this.handlePersonChange}>Click me!</button>
+            </div>
+        );
+    }
+}
+
+export default App;
+
+-------------------------------------------
+2- setatate  with namefucthin =()=>{} ES7
+
+in the App.js: 
+import React, { Component } from 'react';
+
+import './App.css';
+import Person from './components/Person';
+
+class App extends Component {
+    constructor() {
+        
+        super();
+
+        this.state = {
+            persons: [
+                { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+                { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+                { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+            ],
+        };
+    }
+
+
+    handlePersonChange= ()=>{
+        this.setState({
+            persons: [
+                { firstname: 'Hafiz', lastname: 'Rahimi', age: 20 },
+                { firstname: 'Khers Bozorg', lastname: 'Nori', age: 44 },
+                { firstname: 'maryam', lastname: 'jafari', age: 16 },
+            ],
+        })
+    }
+
+    render() {
+        const { persons } = this.state;
+        return (
+            <div className="App">
+                <h1>Hello World!</h1>
+                <hr />
+                {persons.map((person) => (
+                    <Person
+                        firstname={person.firstname}
+                        lastname={person.lastname}
+                        age={person.age}
+                    />
+                ))}
+                <hr />
+                <button onClick={this.handlePersonChange}>Click me!</button>
+            </div>
+        );
+    }
+}
+
+export default App;
+
+-------------------------------------------
+3- How use a State in the Component in ES7?
+
+in the App.js:
+import React, { Component } from 'react';
+
+import './App.css';
+import Person from './components/Person';
+
+class App extends Component {
+
+    state = {
+        persons: [
+            { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+            { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+            { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+        ],
+    };
+
+
+    handlePersonChange= ()=>{
+        this.setState({
+            persons: [
+                { firstname: 'Hafiz', lastname: 'Rahimi', age: 20 },
+                { firstname: 'Khers Bozorg', lastname: 'Nori', age: 44 },
+                { firstname: 'maryam', lastname: 'jafari', age: 16 },
+            ],
+        })
+    }
+
+    render() {
+        const { persons } = this.state;
+        return (
+            <div className="App">
+                <h1>Hello World!</h1>
+                <hr />
+                {persons.map((person) => (
+                    <Person
+                        firstname={person.firstname}
+                        lastname={person.lastname}
+                        age={person.age}
+                    />
+                ))}
+                <hr />
+                <button onClick={this.handlePersonChange}>Click me!</button>
+            </div>
+        );
+    }
+}
+
+export default App;
+
+-------------------------------------------
+4- props.children
+<Person firstname={person.firstname}> ==============> <Person firstname={person.firstname} > children </Person>
+
+
+in the App.js:
+
+import React, { Component } from 'react';
+
+import './App.css';
+import Person from './components/Person';
+
+class App extends Component {
+
+    state = {
+        persons: [
+            { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+            { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+            { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+        ],
+    };
+
+    render() {
+        const { persons } = this.state;
+        return (
+            <div className="App">
+                <h1>Hello World!</h1>
+                <hr />
+                {persons.map((person) => (
+                    <Person
+                        firstname={person.firstname}
+                        lastname={person.lastname}
+                        age={person.age}
+                    >
+                        Toplearnllllllllllllllll
+                    </Person>
+                ))}
+                <hr />
+            </div>
+        );
+    }
+}
+
+export default App;
+
+
+Person.jsx:
+
+import React from 'react';
+
+const Person = ({  firstname, lastname,age,children }) => {
+    return (
+        <div>
+            
+            <p>{` ${firstname} ${lastname}`}</p>
+            {/* <p>Age : {Math.floor(Math.random() * 30)}</p> */}
+            <p>Age : {age}</p>
+            <p>{children}</p>
+        </div>
+    );
+};
+
+
+___________________________________________________________________________________________
+
+Video 07  
+
+----------------------------------------------------------      
+
+
+
+
+
+
+
