@@ -35,6 +35,48 @@
 
 ---
 ## Video 01
+مقدمه و معرفی دوره
+
+<br><br>
+
+---
+## Video 02
+گرفتن بهترین نتیجه از این دوره
+
+
+<br><br>
+
+---
+## Video 03
+ساخت محیط کاری
+
+<br><br>
+
+---
+## Part01: Introduction
+<br>
+
+---
+## Part02: Create Workspace On Windows
+<br>
+
+---
+## Part03: Create Workspace On Linux
+<br>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+## Video 00
 
 
 <br><br>

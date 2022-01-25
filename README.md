@@ -6,28 +6,21 @@
 <br> <br> **Time : 22:35:00** 
 <br> <br>
 
-<br>
 
 #### **Dependencies** modules:
 - [x] module
 
-<br>
-
 #### **DevDependencies** modules:
 - [x] module
-
-<br>
 
 #### **Global** modules:
 - [x] module
 
-<br>
+
 
 #### **Materials :**
 - [x] JavaScript
 - [x] Git
-
-
 
 #### **Help :**
 * [Reactjs.org](https://reactjs.org/ "reactjs.org")
