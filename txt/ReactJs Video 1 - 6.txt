@@ -220,7 +220,7 @@ Video 03
 2- in JSX we have to a tag Root 
 3- comment  in JSX: {/* comment */}
 4- class in html = className in jsx
-5- you have close tag after you greate
+5- you have close tag after you Create
 
 EXE:
   return (

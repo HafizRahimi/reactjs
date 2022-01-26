@@ -1,10 +1,20 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
     return (
         <div>
-            <h1>Hello React</h1>
+
+        <div className="App">
+            <h1>Hello React</h1>{/*  test Comment in JSX */}
+        </div>
+
+        <hr></hr>{/* you have to close tag */}
+        <div>
+            <p>Hello React</p>
+        </div>
         </div>
     );
 }

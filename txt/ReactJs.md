@@ -138,7 +138,44 @@ Function Component and class components
 ---
 
 ## Video 05
+Why JSX
 
+---
+### **Part `01`**: Introduction
+
+
+<br>
+
+---
+
+### **Part `02`**: Why JSX
+
+
+<br>
+
+---
+
+### **Part `03`**: JSX Rules
+<br>
+
+`Rule-1`: Have a root div
+
+`Rule-2`: For add Class to JSX use className:
+```JSX
+        <div className="App">
+            <h1>Hello React</h1>
+        </div>
+```
+
+`Rule-3`: You have close tag after create it.
+
+`Rule-4`: Comment  in JSX: {/* comment */}
+
+```JSX
+        <div className="App">
+            <h1>Hello React</h1>{/*Test Comment in JSX */}
+        </div>
+```
 
 <br><br>
 
