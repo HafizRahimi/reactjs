@@ -137,7 +137,7 @@ Function Component and class components
 
 ---
 
-## Video 05
+## `Video 05`
 Why JSX
 
 ---
@@ -181,11 +181,66 @@ Why JSX
 
 ---
 
+## `Video 06`
+مباحث پایه ریکت
+
+<br>
+
+---
+### **Part `01`**: Introduction
+
+
+<br>
+
+---
+### **Part `02`**: First step
+
+<br>
+
+1- App.js is `Root Component`.
+
+2- index.js is For `render` components in index.html
+```JSX
+   render(<App/>, document.getElementById("root"));
+```
+
+<br>
+
+3- Create a `Class Component`:
+```JSX
+class App extends Component {
+    constructor(props) {
+        super();
+    }
+    render() {
+        return (
+            <div className="App">
+                <h1>Hello World</h1>
+            </div>
+        )
+    }
+}
+```
+
+<br>
+
+---
+### **Part `03`**: 
+
+
+<br>
+
+---
 
 
 
 
-## Video 00
+<br><br>
+
+---
+
+
+## `Video 00`
 
 
 <br><br>

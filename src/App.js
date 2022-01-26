@@ -1,22 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{Component} from "react";
 
+import './App.css'
 
-function App() {
-    return (
-        <div>
-
-        <div className="App">
-            <h1>Hello React</h1>{/*  test Comment in JSX */}
-        </div>
-
-        <hr></hr>{/* you have to close tag */}
-        <div>
-            <p>Hello React</p>
-        </div>
-        </div>
-    );
+class App extends Component {
+    constructor(props) {
+        super();
+    }
+    render() {
+        return (
+            <div className="App">
+                <h1>Hello World</h1>
+            </div>
+        )
+    }
 }
 
 export default App;
