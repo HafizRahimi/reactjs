@@ -206,8 +206,10 @@ Why JSX
 
 <br>
 
-3- Create a `Class Component`:
+3- Create a `Class Component`: 
 ```JSX
+import React,{Component} from "react"; //import React and Component
+
 class App extends Component {
     constructor(props) {
         super();
@@ -277,6 +279,40 @@ class App extends Component {
 export default App;
 ```
 
+<br>
+
+---
+### **Part `04`**: Function Component
+
+4- Create a `Function Component or Stateless Function Component`:
+
+```JSX
+import React from "react"; //import React 
+
+const App = () => {
+    return (
+        <div className="App">
+            <h1>
+                Hello React
+            </h1>
+            <hr/>
+            <Person/>
+        </div>
+    );
+}
+
+export default App;
+```
+
+Extension Simple React Snippets:
+```
+sfc     (For Stateless Function Component)
+```
+
+<br>
+
+---
+### **Part `05`**: Function Component
 
 
 
