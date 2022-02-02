@@ -225,7 +225,61 @@ class App extends Component {
 <br>
 
 ---
-### **Part `03`**: 
+### **Part `03`**: Child Component
+
+1- Create the componentsFolder in srsFolder
+<br>
+
+2- Create Person component (Person.jsx):
+```jsx
+import React, { Component } from 'react';
+
+class Person extends Component {
+    render() { 
+        return (
+            <p>Hafizullah Rahimi</p>
+        );
+    }
+}
+
+export default Person;
+```
+<!-- <br> -->
+
+3- Install Extension Simple React Snippets:
+```
+imrc	(for Import React / Component)
+cc	    (for Class Component)
+```
+4- Install Extension Auto Import - ES6, TS, JSX, TSX
+
+
+5- App.js:
+```jsx
+import React,{Component} from "react";
+
+import Person from './components/Person';
+
+import './App.css';
+
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                <h1>Hello World</h1>
+                <hr/>
+                <Person/>
+            </div>
+        )
+    }
+}
+
+export default App;
+```
+
+
+
+
 
 
 <br>

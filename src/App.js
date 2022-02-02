@@ -1,15 +1,16 @@
 import React,{Component} from "react";
 
-import './App.css'
+import Person from './components/Person';
+
+import './App.css';
 
 class App extends Component {
-    constructor(props) {
-        super();
-    }
     render() {
         return (
             <div className="App">
                 <h1>Hello World</h1>
+                <hr/>
+                <Person/>
             </div>
         )
     }
