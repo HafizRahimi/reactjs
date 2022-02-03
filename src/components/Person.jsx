@@ -1,22 +1,12 @@
 
 import React from 'react';
 
-// const Person = (props) =>{
-//     return (
-//         <>
-//         <p>{`${props.firstName} ${props.lastName}`}</p> {/* Props */}
-//         <hr/>
-//         <p>Age:{Math.floor(Math.random() * 30)}</p>  {/* Dynamic Data */}
-//         </>
-//     )
-// }
-
-const Person = ({firstName, lastName, age}) =>{
+const Person = ({firstname, lastname, age}) =>{
     return (
         <>
-        <p>{`${firstName} ${lastName}`}</p>
-        <hr/>
+        <p>{`${firstname} ${lastname}`}</p>
         <p>Age:{age}</p>
+        <hr/>
         </>
     )
 }

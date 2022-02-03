@@ -358,8 +358,54 @@ const Person = ({firstName, lastName, age}) =>{
 <br>
 
 ---
-### **Part `06`**: 
+### **Part `06`**: State in the Class Component
 
+**State**: 
+>When we do Change Delete and... a `Data` in the Component, we do state.
+
+**Props**: 
+>When we send data from a Component to other Component.
+
+<br>
+
+**Stateless**: 
+>Component which has State
+
+**Statefull**:
+>Component which has not State
+
+
+1- Create a state like a constructor in Class Component:
+```jsx
+constructor() {
+    super();
+    this.state = {
+        persons: [
+            { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+            { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+            { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+        ],
+    };
+}
+```
+
+2- Use the state:
+```jsx
+{/* <Person firstName="Hafiz" lastName="Rahimi" age="22" /> */}
+<Person
+    firstname={this.state.persons[0].firstname}
+    lastname={this.state.persons[0].lastname}
+    age={this.state.persons[0].age}
+/>
+```
+
+
+
+
+<br>
+
+---
+### **Part `07`**: 
 
 
 
