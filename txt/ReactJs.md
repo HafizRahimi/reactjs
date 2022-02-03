@@ -312,7 +312,54 @@ sfc     (For Stateless Function Component)
 <br>
 
 ---
-### **Part `05`**: Function Component
+### **Part `05`**: Props And Dynamic Data
+
+1- **Dynamic Data**:
+```jsx
+<p>Age:{Math.floor(Math.random() * 30)}</p>
+```
+
+2- **Props**:
+
+>Props are `arguments` passed into React components.
+props stands for `properties`.
+<br>React Props are like function arguments in JavaScript and attributes in HTML.
+
+1- Create Prop:
+```jsx
+<Person firstName="Hafiz" lastName="Rahimi" age="22"/>
+```
+2- Use Prop01:
+```jsx
+const Person = (props) =>{
+    return (
+        <>
+        <p>{`${props.firstName} ${props.lastName}`}</p> {/* Props */}
+        <hr/>
+        <p>Age:{Math.floor(Math.random() * 30)}</p>  {/* Dynamic Data */}
+        </>
+    )
+}
+```
+
+2- Use Prop02:
+```jsx
+const Person = ({firstName, lastName, age}) =>{
+    return (
+        <>
+        <p>{`${firstName} ${lastName}`}</p>
+        <hr/>
+        <p>Age:{age}</p>
+        </>
+    )
+}
+```
+
+<br>
+
+---
+### **Part `06`**: 
+
 
 
 

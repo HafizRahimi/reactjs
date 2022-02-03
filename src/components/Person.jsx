@@ -1,23 +1,26 @@
-// import React, { Component } from 'react';
 
-// class Person extends Component {
-//     render() { 
-//         return (
-//             <p>Hafizullah Rahimi</p>
-//         );
-//     }
+import React from 'react';
+
+// const Person = (props) =>{
+//     return (
+//         <>
+//         <p>{`${props.firstName} ${props.lastName}`}</p> {/* Props */}
+//         <hr/>
+//         <p>Age:{Math.floor(Math.random() * 30)}</p>  {/* Dynamic Data */}
+//         </>
+//     )
 // }
 
-// export default Person;
-
-
-// import React from 'react';
-
-const Person = ()=>{
+const Person = ({firstName, lastName, age}) =>{
     return (
-        <p>Hafizullah Rahimi</p>
+        <>
+        <p>{`${firstName} ${lastName}`}</p>
+        <hr/>
+        <p>Age:{age}</p>
+        </>
     )
 }
+
 
 export default Person;
 
