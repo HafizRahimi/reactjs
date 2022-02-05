@@ -374,6 +374,7 @@ const Person = ({firstName, lastName, age}) =>{
 **Statefull**:
 >Component which has not State
 
+<br>
 
 1- Create a state like a constructor in Class Component:
 ```jsx
@@ -399,13 +400,121 @@ constructor() {
 />
 ```
 
-
-
-
 <br>
 
 ---
-### **Part `07`**: 
+### **Part `07`**: SetState And Events
+
+**setState**:
+>When we do Change state to other state in Component.
+
+**Props Children**:
+
+<br>
+
+1- Use setState when we have the state like a constructor in Class Component:
+```jsx
+    handelPersonsChange() {
+        this.setState({persons :[
+            { firstname: 'Hafiz', lastname: 'Rahimi', age: 20 },
+            { firstname: 'Mohammad', lastname: 'Nori', age: 28 },
+            { firstname: 'Amir', lastname: 'Alozade', age: 40 },
+        ]});
+    }
+```
+
+2- And you have use bind() in constructor for the handelPersonsChange method can take (this).
+
+```jsx
+    this.handelPersonsChange = this.handelPersonsChange.bind(this);
+```
+
+3- Event onClick for handelPersonsChange method:
+
+```jsx
+    <button onClick={this.handelPersonsChange}>Change It</button>
+```
+
+1- `ES7:` Create a Arrow function and you doesn't use `bind()` :
+```jsx
+    //ES7: Arrow function
+    handelPersonsChange = () =>{
+        this.setState({persons :[
+            { firstname: 'Hafiz', lastname: 'Rahimi', age: 20 },
+            { firstname: 'Mohammad', lastname: 'Nori', age: 28 },
+            { firstname: 'Amir', lastname: 'Alozade', age: 40 },
+        ]});
+    }
+```
+
+
+2- Create a state in ES7:
+
+```jsx
+class App extends Component {
+    constructor() {
+        super();
+    };
+    
+    // ES7: Create a State
+    state = {
+        persons: [
+            { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+            { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+            { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+        ],
+    };
+
+    //ES7 Arrow function
+    handelPersonsChange = () =>{
+        this.setState({persons :[
+            { firstname: 'Hafiz', lastname: 'Rahimi', age: 20 },
+            { firstname: 'Mohammad', lastname: 'Nori', age: 28 },
+            { firstname: 'Amir', lastname: 'Alozade', age: 40 },
+        ]});
+    }
+
+    render() {
+        const { persons } =this.state;
+        return (
+            <div className="App">
+                <h1>Hello React</h1>
+                <hr />
+                { persons.map(person =>(
+                    <Person firstname={person.firstname} lastname={person.lastname} age={person.age}/>
+                ))}
+                <button onClick={this.handelPersonsChange}>Change It</button>
+            </div>
+        );
+    }
+}
+```
+
+1- Props Children:
+```jsx
+        <Person
+            firstname={person.firstname}
+            lastname={person.lastname}
+            age={person.age}
+        >
+        PropsChildren
+        </Person>
+```
+
+2- Use Props Children:
+```jsx
+const Person = ({firstname, lastname, age, children}) =>{
+    return (
+        <>
+        <p>{`${firstname} ${lastname}`}</p>
+        <p>Age:{age}</p>
+        {/* props children */}
+        <p>{children}</p>
+        <hr/>
+        </>
+    )
+}
+```
 
 
 

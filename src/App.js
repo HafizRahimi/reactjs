@@ -7,46 +7,61 @@ import './App.css';
 class App extends Component {
     constructor() {
         super();
-        this.state = {
-            persons: [
-                { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
-                { firstname: 'Hamed', lastname: 'Nori', age: 28 },
-                { firstname: 'Navid', lastname: 'Alozade', age: 40 },
-            ],
-        };
+
+        // this.handelPersonsChange = this.handelPersonsChange.bind(this);
+
+        // this.state = {
+        //     persons: [
+        //         { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+        //         { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+        //         { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+        //     ],
+        // };
     }
+    // ES7:  Create a State
+    state = {
+        persons: [
+            { firstname: 'Hafizullah', lastname: 'Rahimi', age: 20 },
+            { firstname: 'Hamed', lastname: 'Nori', age: 28 },
+            { firstname: 'Navid', lastname: 'Alozade', age: 40 },
+        ],
+    };
+    // method handelPersonsChange
+    // handelPersonsChange() {
+    //     this.setState({persons :[
+    //         { firstname: 'Hafiz', lastname: 'Rahimi', age: 20 },
+    //         { firstname: 'Mohammad', lastname: 'Nori', age: 28 },
+    //         { firstname: 'Amir', lastname: 'Alozade', age: 40 },
+    //     ]});
+    // }
+
+    //ES7 Arrow function
+    handelPersonsChange = () => {
+        this.setState({
+            persons: [
+                { firstname: 'Hafiz', lastname: 'Rahimi', age: 20 },
+                { firstname: 'Mohammad', lastname: 'Nori', age: 28 },
+                { firstname: 'Amir', lastname: 'Alozade', age: 40 },
+            ],
+        });
+    };
 
     render() {
-        const { persons } =this.state;
+        const { persons } = this.state;
         return (
             <div className="App">
                 <h1>Hello React</h1>
                 <hr />
-                {/* <Person firstName="Hafiz" lastName="Rahimi" age="22" /> */}
-                
-                {/* <Person
-                    firstname={this.state.persons[0].firstname}
-                    lastname={this.state.persons[0].lastname}
-                    age={this.state.persons[0].age}
-                />
-                <Person
-                    firstname={this.state.persons[1].firstname}
-                    lastname={this.state.persons[1].lastname}
-                    age={this.state.persons[1].age}
-                />
-                <Person
-                    firstname={this.state.persons[2].firstname}
-                    lastname={this.state.persons[2].lastname}
-                    age={this.state.persons[2].age}
-                /> */}
-
-                {/* { this.state.persons.map(person =>(
-                    <Person firstname={person.firstname} lastname={person.lastname} age={person.age}/>
-                ))} */}
-                
-                { persons.map(person =>(
-                    <Person firstname={person.firstname} lastname={person.lastname} age={person.age}/>
+                {persons.map((person) => (
+                    <Person
+                        firstname={person.firstname}
+                        lastname={person.lastname}
+                        age={person.age}
+                    >
+                    PropsChildren
+                    </Person>
                 ))}
+                <button onClick={this.handelPersonsChange}>Change It</button>
             </div>
         );
     }
