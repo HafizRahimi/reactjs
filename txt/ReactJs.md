@@ -516,13 +516,38 @@ const Person = ({firstname, lastname, age, children}) =>{
 }
 ```
 
+<br><br>
 
+---
 
+## `Video 07`
+
+ساخت اولین پروژه
 
 
 <br>
 
 ---
+### **Part `01`**: Introduction
+
+<br>
+
+---
+### **Part `02`**: Create Workspace
+
+```
+    create-react-app .
+```
+<br>
+
+---
+### **Part `03`**: 
+
+<br>
+
+
+
+
 
 
 
@@ -530,6 +555,17 @@ const Person = ({firstname, lastname, age, children}) =>{
 <br><br>
 
 ---
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## `Video 00`
