@@ -610,13 +610,26 @@ src/index.css:
 
 
 ---
-### **Part `05`**: 
+### **Part `05`**: Conditional Rendering (رندر مشروط)
+
+In React, you can conditionally render components.
+
+```jsx
+    let person = null;
+
+    if(stateShow){
+        person = <Persons persons={persons}></Persons>;
+    }
+```
 
 <br>
 
 
+---
+### **Part `06`**: 
 
-<br><br>
+
+<br>
 
 ---
 
