@@ -532,23 +532,87 @@ const Person = ({firstname, lastname, age, children}) =>{
 
 <br>
 
+
 ---
 ### **Part `02`**: Create Workspace
 
 ```
     create-react-app .
 ```
+
 <br>
+
 
 ---
-### **Part `03`**: 
+### **Part `03`**: Create Components With State And Props
 
 <br>
 
 
+---
+### **Part `04`**: Styles And Fonts
+
+<br>
+
+InlineStyle:
+```jsx
+    <div style={{ textAlign: 'center' }}>
+```
+Or
+```jsx
+    render() {
+    const { persons } = this.state;
+    
+    //inlineStyle
+    const styles = {
+        textAlign: 'center'
+    };
+
+    return (
+        //inlineStyle use
+        <div style={styles}>
+            <Persons persons={persons}></Persons>
+        </div>
+    );
+```
+<br>
+
+Global style: public/css/style.css then add to index.html
+
+<br>
+
+index.html:
+```html
+    <link rel="stylesheet" href="css/style.css">
+```
+<br>
+
+style.css
+```css
+@font-face {
+    font-family: "BYekan";
+    src: url("../fonts/BYekan-webfont.eot") format("eot"),
+        url("../fonts/BYekan-webfont.woff") format("woff"),
+        url("../fonts/BYekan-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+```
+
+src/index.css: 
+```css
+    body{
+        font-family:'BYekan' !important;
+    }
+```
+
+<br>
 
 
+---
+### **Part `05`**: 
 
+<br>
 
 
 
