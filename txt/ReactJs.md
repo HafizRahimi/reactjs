@@ -626,7 +626,32 @@ In React, you can conditionally render components.
 
 
 ---
-### **Part `06`**: 
+### **Part `06`**: Keys And DeletePerson
+
+Keys
+```jsx
+    key={person.id}
+```
+
+Send Function Like a prop:
+```jsx
+    <Persons
+        persons={persons}
+        personDelete={this.handleDeletePerson}
+    ></Persons>
+```
+
+
+Arrow Function for the Function have property:
+```jsx
+    deleted={() => personDelete(person.id) } //use arrow Function for the personDelete have property(id) 
+```
+
+<br>
+
+
+---
+### **Part `07`**: 
 
 
 <br>
