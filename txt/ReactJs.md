@@ -651,7 +651,30 @@ Arrow Function for the Function have property:
 
 
 ---
-### **Part `07`**: 
+### **Part `07`**: Editing Person
+
+1- event in reactjs:
+```jsx
+    handleNameChange = (event, id) =>{
+        const {persons: allPersons} =this.state;
+        const personIndex = allPersons.findIndex(p => p.id === id);
+
+        const person = allPersons[personIndex];
+        person.fullName = event.target.value; //For have things like event send
+
+        console.log(event);
+        const persons = [...allPersons];
+
+        persons[personIndex] = person;
+        this.setState({persons});
+    }
+```
+
+<br>
+
+
+---
+### **Part `08`**: 
 
 
 <br>
