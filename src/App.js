@@ -61,10 +61,10 @@ class App extends Component {
         const styles = {
             textAlign: 'center',
         };
-        const buttonStyle = {
-            padding: '0.5em',
-            fontFamily: 'BYekan',
-        };
+        // const buttonStyle = {
+        //     padding: '0.5em',
+        //     fontFamily: 'BYekan',
+        // };
 
         let person = null;
 
@@ -88,9 +88,8 @@ class App extends Component {
                     <button onClick={this.handleNewPerson}>اضافه کردن</button>
                 </div>
 
-                <button onClick={this.handleShowPerson} style={buttonStyle}>
-                    نمایش اشخاص
-                </button>
+                <button onClick={this.handleShowPerson} className="btn btn-sm btn-success fas fa-plus"/>
+
 
                 {person}
             </div>

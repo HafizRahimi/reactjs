@@ -677,6 +677,48 @@ Arrow Function for the Function have property:
 ### **Part `08`**: Create New Person
 
 
+<br><br>
+
+---
+
+## `Video 08`
+استایل دهی در React
+
+
+<br>
+
+---
+### **Part `01`**: Introduction
+
+
+<br>
+
+---
+### **Part `02`**: Installing And Configuring Bootstrap And FontAwesome
+
+
+bootstrap-v4-rtl
+```
+npm i bootstrap-v4-rtl
+```
+
+Font awesome CDN:
+```htlm
+<script src="https://kit.fontawesome.com/b208251be5.js" crossorigin="anonymous"></script>
+
+or
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+```
+
+<br>
+
+---
+
+### **Part `03`**: 
+
+
 <br>
 
 ---
@@ -684,6 +726,23 @@ Arrow Function for the Function have property:
 
 
 
+### **Part `00`**: 
+
+
+<br>
+
+---
+
+
+
+
+
+
+
+
+<br><br>
+
+---
 
 
 
